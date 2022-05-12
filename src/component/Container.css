@@ -1,0 +1,43 @@
+.Container {
+    text-align: center;
+    margin:auto;
+    background-color: #cccccc;
+    background-image: linear-gradient(white, rgb(124, 165, 231));
+    border: 5px solid rgb(34, 68, 131);  
+    border-radius: 10px;
+    max-width :500px;
+    min-height: 90vh;
+    color: rgb(117, 110, 9);
+    
+  }
+  .searchBar{
+   margin-top: -10px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: inset 5px 10px 18px #a5b3de;
+    border: none;
+    width: 70%;
+    font-size: 20px;
+    z-index: 1;
+    text-align: center;
+  }
+  .header{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .image1{
+      z-index: 2;
+      height: 30%;
+      width: 70%;
+      margin-top: 10px;
+  }
+  .streeticon{
+    margin-top: 10px;
+    font-size: 100px;
+    color: blue;
+  }
+
+
+  
